@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+<body-->
+  </--титулка-->
+  <section id="person">
+    <div class="container">
+      <div class="left">
+
+        <h2 class="head">
+          <div class="caption"><span>Programming</span> </div>
+          <div class="caption"><span>is</span> </div>
+          <div class="caption"><span>life</span> </div>
+        </h2>
+        <p class="my-name">My name is Anna</p>
+        <p class="about-me">Рада, що ви переглядаєте це портфоліо. Я Аня і мені 19 років, ще з 17 років я почила
+          захоплюватися дизайном та вивчати його.</p>
+        <p class="my-name">-----------------------------------------</p>
+      </div>
+      <div class="right">
+        <div class="my-photo">
+          <img src="/img/me.jpg" alt="img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services Section -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-head" data-outline="Skills">Skills</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-head">Web Design</h3>
+          <p class="about-tech">отрасль веб-разработки и разновидность дизайна, в задачи которой входит проектирование
+            пользовательских веб-интерфейсов для сайтов или веб-приложений.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-head">Programmer</h3>
+          <p class="about-tech">процес проектування, написання, тестування, зневадження і підтримки комп'ютерних
+            програм.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h3 class="item-head">Photoshop</h3>
+          <p class="about-tech">многофункциональный графический редактор, разрабатываемый и распространяемый компанией
+            Adobe Systems.</p>
+        </div>
+      </div>
+    </div>
+    <section id="practice">
+      <div class="container">
+        <h2 class="section-head" data-outline="practice">practice</h2>
+        <div class="all-items">
+          <div class="item">
+            <h2 class="number">~15~</h2>
+            <h3 class="practice-name">Виконані проекти</h3>
+            <p>Виконала біля 15 проектів, одні з яеих були для досить великих компаній мого міста.</p>
+          </div>
+          <div class="item">
+            <h2 class="number">~6~</h2>
+            <h3 class="practice-name">Задоволенні клієнти</h3>
+            <p>Більшість моїх клієнтів були задоволенні моєю роботою.</p>
+          </div>
+          <div class="item">
+            <h2 class="number">~4~</h2>
+            <h3 class="practice-name">Досвід</h3>
+            <p>Я працювала приблизно з 15 клієнтами, тому не великий досвід вже маю.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-head" data-outline="about">About</h2>
+        <div class="wrapper">
+          <div class="card">
+            <div class="img">
+              <img src="./img/me.jpg" alt="">
+            </div>
+            <p class="caption-first">Привіт. Це Аня!</p>
+            <h2 class="slogan">Я Web-Дизайнер</h2>
+            <p class="card-desc">Я початківець в сфері розробки сайтів.
+              Але я вже маю досить не погане портфоліо, завдяки співпраці з деякими фірмами.
+              Мій досвід роботи ще зовсім малий, але навіть в такому віці я змогла найти спільну
+              мову з декількома компаніями з власного міста та допомогла їм з оформленням їхніх сайтів для збільшення
+              прибутків їхнього бізнесу.
+            </p>
+          </div>
+        </div>
+        <div class="button">
+          <a href="./resume/resume.txt" class="vip-button" download="">Скачати резюме</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="projects container">
+        <h2 class="section-head" data-outline="project">project</h2>
+        <div class="all-items">
+          <div class="item">
+            <div class="project-info">
+              <h1>Project 1</h1>
+              <h2>Сайт одягу "Levis"</h2>
+              <p>В основі цього проекту лежить комфорт та зручність використання. Надзвичайно легко, безпечно ви можете
+                робити покупкі і не перейматися за збереження ваших особистих даних.
+                Сайт приваблює своєю оригінальністю, зручністю, легкістю, невимушеністю, яскравістю та бажання
+                повертатися знову і знову за покупками. </p>
+
+
+              <img class="project-img" src="./img/pr1.png" alt="img">
+            </div>
+          </div>
+          <div class="item">
+            <div class="project-info">
+              <h1>Project 2</h1>
+              <h2>Сайт канцелярського приладдя "Кнопка"</h2>
+              <p>
+                Ви навіть уявити собі не можете наскільки різноманітний світ канцелярії. Наш сайт дозволить нам побачити
+                те, що ви ніколи не бачили. Тут ви можете знайти найдрібніші речі, які на ваш погляд можоиво нічого не
+                варті вашій роботі, але з часом виявиться що вони несуть чи нейважливішу функцію.
+              </p>
+
+              <img class="project-img" src="./img/pr1.png" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+       
+        <div class="col-2">
+          <h2 class="column-heading">Links</h2>
+          <ul>
+            <li><a href="./index.html#person">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#projects">Project</a></li>
+            <li><a href="./index.html#services">Skills</a></li>
+            <li><a href="./index.html#practice">Practice</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Contact Info</h2>
+          <ul>
+            <li><a href="mailto:annakonoplytska@gmail.com">annakonoplytska@gmail.com</a></li>
+            <li><a href="tel:+74957873422">+380987605255</a></li>
+            <li><a href="#">Рівне, Україна</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h2 class="column-heading">Social Links</h2>
+          <ul>
+            <li><a target="new_blank" href="https://t.me/konoplytska" title="Telegram">Telegram</a></li>            
+            <li><a target="new_blank" href="https://www.instagram.com/konoplytska__/?r=nametag">Instagram</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+    </body>
+</html>
